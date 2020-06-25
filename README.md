@@ -2,9 +2,7 @@
   <img width="2000" height="250" src="/images/banner.png">
 </p>
 
-Just some python scripts to help procedurally generate maps using perlin noise.
-
-![](/images/logo.png)
+Python scripts to help procedurally generate maps using perlin noise.
 
 ## Blend
 ### Command Line Arguments
