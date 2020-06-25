@@ -61,12 +61,13 @@ Options:
 <p align="left">
   <img width="250" height="250" src="/images/water1.png">
 </p>
+
 ##### render of output obj file
 <p align="left">
   <img width="250" height="250" src="/images/water2.png">
 </p>
-## genPoints
 
+## genPoints
 ### Command Line Arguments
 
 Usage: genPoints.py [OPTIONS] MASK LEVELS
