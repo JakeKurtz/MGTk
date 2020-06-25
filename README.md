@@ -1,12 +1,12 @@
-# Map Generation Tools
+<p align="center">
+  <img width="2000" height="250" src="/images/banner.png">
+</p>
+
 Just some python scripts to help procedurally generate maps using perlin noise.
 
 ![](/images/logo.png)
 
 ## Blend
-
-
-
 ### Command Line Arguments
 ```shell
 Usage: blend.py [OPTIONS] IMAGE1 IMAGE2 MASK
@@ -17,10 +17,12 @@ Options:
 ### Example Output
 #### input
 ```shell
-
+> python blend.py dirt.png grass.png mask.png
 ```
 #### output
-![GitHub Logo](/images/logo.png)
+<p align="center">
+  <img width="1000" height="225" src="/images/blend.png">
+</p>
 
 ## genNoise
 
@@ -35,10 +37,12 @@ Options:
 ### Example Output
 #### input
 ```shell
-
+> noiseMap.py 1024 50
 ```
 #### output
-![GitHub Logo](/images/logo.png)
+<p align="left">
+  <img width="250" height="250" src="/images/noiseMap.png">
+</p>
 
 ## waterGeometry
 
@@ -52,11 +56,17 @@ Options:
 ### Example Output
 #### input
 ```shell
-
+> python waterGeometry.py heightMap.png
 ```
 #### output
-![GitHub Logo](/images/logo.png)
-
+##### input mask
+<p align="left">
+  <img width="250" height="250" src="/images/water1.png">
+</p>
+##### render of output obj file
+<p align="left">
+  <img width="250" height="250" src="/images/water2.png">
+</p>
 ## genPoints
 
 ### Command Line Arguments
@@ -73,7 +83,9 @@ Options:
 ### Example Output
 #### input
 ```shell
-
+> python genPoints.py -c 255 255 0 -c 0 255 0 mask.png 8
 ```
 #### output
-![GitHub Logo](/images/logo.png)
+<p align="left">
+  <img width="250" height="250" src="/images/genPoints.png">
+</p>
