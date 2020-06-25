@@ -1,7 +1,11 @@
 # Map Generation Tools
 Just some python scripts to help procedurally generate maps using perlin noise.
 
+![](/images/logo.png)
+
 ## Blend
+
+
 
 ### Command Line Arguments
 ```shell
@@ -11,6 +15,12 @@ Options:
   -o TEXT   output file
 ```
 ### Example Output
+#### input
+```shell
+
+```
+#### output
+![GitHub Logo](/images/logo.png)
 
 ## genNoise
 
@@ -23,6 +33,12 @@ Options:
   -o TEXT   output file
 ```
 ### Example Output
+#### input
+```shell
+
+```
+#### output
+![GitHub Logo](/images/logo.png)
 
 ## waterGeometry
 
@@ -34,6 +50,12 @@ Options:
   -o TEXT   output file
 ```
 ### Example Output
+#### input
+```shell
+
+```
+#### output
+![GitHub Logo](/images/logo.png)
 
 ## genPoints
 
@@ -49,3 +71,9 @@ Options:
   -rejectionSamples INT   number of rejection sample for poisson
 ```
 ### Example Output
+#### input
+```shell
+
+```
+#### output
+![GitHub Logo](/images/logo.png)
