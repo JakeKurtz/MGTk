@@ -12,7 +12,7 @@ Usage: blend.py [OPTIONS] IMAGE1 IMAGE2 MASK
 Options:
   -o TEXT   output file
 ```
-### Example Output
+### Example
 #### input
 ```shell
 > python blend.py dirt.png grass.png mask.png
@@ -32,7 +32,7 @@ Options:
   -l INT    number of bit levels
   -o TEXT   output file
 ```
-### Example Output
+### Example
 #### input
 ```shell
 > noiseMap.py 1024 50
@@ -51,7 +51,7 @@ Usage: waterGeometry.py [OPTIONS] HEIGHT_MAP
 Options:
   -o TEXT   output file
 ```
-### Example Output
+### Example
 #### input
 ```shell
 > python waterGeometry.py heightMap.png
@@ -79,7 +79,7 @@ Options:
   -sampleRadius INT       sample radius for poisson
   -rejectionSamples INT   number of rejection sample for poisson
 ```
-### Example Output
+### Example
 #### input
 ```shell
 > python genPoints.py -c 255 255 0 -c 0 255 0 mask.png 8
