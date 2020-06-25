@@ -1,10 +1,51 @@
-# Perlin-Noise-Map-Generator-
-Just some python scripts to help procedurally generate maps using perlin noise. 
+# Map Generation Tools
+Just some python scripts to help procedurally generate maps using perlin noise.
 
-![Image description](https://i.imgur.com/zOPyT3f.png)
+## Blend
 
-![Image description](https://i.imgur.com/XbH1KG2.png)
+### Command Line Arguments
 
-![Image description](https://i.imgur.com/m2nMyn3.png)
+Usage: blend.py [OPTIONS] IMAGE1 IMAGE2 MASK
 
-![Image description](https://i.imgur.com/lRkRei3.png)
+Options:
+  -o TEXT   output file
+
+### Example Output
+
+## genNoise
+
+### Command Line Arguments
+
+Usage: noiseMap.py [OPTIONS] SIZE SCALE
+
+Options:
+  -l INT    number of bit levels
+  -o TEXT   output file
+
+### Example Output
+
+## waterGeometry
+
+### Command Line Arguments
+
+Usage: waterGeometry.py [OPTIONS] HEIGHT_MAP
+
+Options:
+  -o TEXT   output file
+
+### Example Output
+
+## genPoints
+
+### Command Line Arguments
+
+Usage: genPoints.py [OPTIONS] MASK LEVELS
+
+Options:
+  -o TEXT                 output file
+  -c <INT, INT, INT>...   colors to use for points
+  -r INT...               max/min radii
+  -sampleRadius INT       sample radius for poisson
+  -rejectionSamples INT   number of rejection sample for poisson
+
+### Example Output
