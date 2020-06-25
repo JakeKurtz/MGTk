@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="2000" height="250" src="/images/banner.png">
+  <img width="1000" height="250" src="/images/banner.png">
 </p>
 
 Python scripts to help procedurally generate maps using perlin noise.
